@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculateur d'IMC</title>
+</head>
+<body>
+    <h1>Indice de masse corporelle</h1>
+    <div class="header box">
+        <p>
+            L’indice de masse corporelle (IMC) permet d’évaluer rapidement votre corpulence simplement avec votre poids et votre taille, quel que soit votre sexe. Calculez rapidement votre IMC et découvrez dans quelle catégorie vous vous situez.
+            L’indice de masse corporelle (IMC) est le seul indice validé par l’Organisation mondiale de la santé pour évaluer la corpulence d’un individu et donc les éventuels risques pour la santé. L’IMC permet de déterminer si l’on est situation de maigreur, de surpoids ou d’obésité par exemple.
+            En anglais on parle de BMI pour Body Mass Index.
+        </p>
+        <p>L'IMC se calcule avec cette formule : <span id="formule">IMC = poids (kg) / taille² (m)</span></p>
+        <div class="legende">
+            <ul>
+                <li>
+                    <div class="code-color"></div>
+                    < 16,5 : Maigreur morbide
+                </li>
+                <li>
+                    <div class="code-color"></div>
+                    16,5 - 18,5 : Maigreur
+                </li>
+                <li>
+                    <div class="code-color"></div>
+                    18,5 - 25 : Poids normal
+                </li>
+                <li>
+                    <div class="code-color"></div>
+                    25 - 30 : Surpoids
+                </li>
+                <li>
+                    <div class="code-color"></div>
+                    30 - 35 : Obésité de grade 1 (ou "obésité simple")
+                </li>
+                <li>
+                    <div class="code-color"></div>
+                    35 - 40 : Obésité de grade 2 (ou "obésité sévère")
+                </li>
+                <li>
+                    <div class="code-color"></div>
+                    > 40 : Obésité de grade 3 (ou "obésité massive/morbide")
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="calc box">
+        <h2>Calculer votre IMC</h2>
+        <form>
+            <label for="size">Taille : </label>
+            <input type="text" name="taille" id="size"><br>
+            <label for="weight">Poids : </label>
+            <input type="text" name="poid" id="weight"><br>
+            <input type="button" value="Calculer">
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
