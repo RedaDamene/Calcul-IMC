@@ -16,25 +16,58 @@ h1{
     margin: 20px 80px;
 }
 
-.header ul{
+.legende{
     list-style: none;
 }
 
-.header ul li{
-    display: flex;
-    justify-content: flex-start;
-    margin: 5px;
-    color: teal;
-}
-
-.code-color{
-    background-color: teal;
-    width: 25px;
-    height: 13px;
+.carre_legende{
+    width: 20px;
+    height: 10px;
     padding: 5px;
     margin-right: 5px;
 }
 
-.calc{
-
+.header ul li{
+    margin: 5px;
+    color: teal;
+    display: flex;
 }
+
+#carre_legende1{
+    background-color: #3664FA;
+}
+
+#carre_legende2{
+    background-color: #00A8AE;
+}
+
+#carre_legende3{
+    background-color: #00AF76;
+}
+
+#carre_legende4{
+    background-color: #F4C32C;
+}
+
+#carre_legende5{
+    background-color: #EB693F;
+}
+
+#carre_legende6{
+    background-color: #DB362A;
+}
+
+#carre_legende7{
+    background-color: #D60B00;
+}
+
+.calc form input{
+    margin: 6px 0;
+}
+
+
+/* background-color: teal;
+    width: 25px;
+    height: 13px;
+    padding: 5px;
+    margin-right: 5px; */

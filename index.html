@@ -16,34 +16,34 @@
             En anglais on parle de BMI pour Body Mass Index.
         </p>
         <p>L'IMC se calcule avec cette formule : <span id="formule">IMC = poids (kg) / taille² (m)</span></p>
-        <div class="legende">
-            <ul>
-                <li>
-                    <div class="code-color"></div>
+        <div class="level">
+            <ul class="legende">
+                <li id="legende1">
+                    <div class="carre_legende" id="carre_legende1"></div>
                     < 16,5 : Maigreur morbide
                 </li>
-                <li>
-                    <div class="code-color"></div>
+                <li id="legende2">
+                    <div class="carre_legende" id="carre_legende2"></div>
                     16,5 - 18,5 : Maigreur
                 </li>
-                <li>
-                    <div class="code-color"></div>
+                <li id="legende3">
+                    <div class="carre_legende" id="carre_legende3"></div>
                     18,5 - 25 : Poids normal
                 </li>
-                <li>
-                    <div class="code-color"></div>
+                <li id="legende4">
+                    <div class="carre_legende" id="carre_legende4"></div>
                     25 - 30 : Surpoids
                 </li>
-                <li>
-                    <div class="code-color"></div>
+                <li id="legende5">
+                    <div class="carre_legende" id="carre_legende5"></div>
                     30 - 35 : Obésité de grade 1 (ou "obésité simple")
                 </li>
-                <li>
-                    <div class="code-color"></div>
+                <li id="legende6">
+                    <div class="carre_legende" id="carre_legende6"></div>
                     35 - 40 : Obésité de grade 2 (ou "obésité sévère")
                 </li>
-                <li>
-                    <div class="code-color"></div>
+                <li id="legende7">
+                    <div class="carre_legende" id="carre_legende7"></div>
                     > 40 : Obésité de grade 3 (ou "obésité massive/morbide")
                 </li>
             </ul>
@@ -56,8 +56,9 @@
             <input type="text" name="taille" id="size"><br>
             <label for="weight">Poids : </label>
             <input type="text" name="poid" id="weight"><br>
-            <input type="button" value="Calculer">
+            <input type="button" value="Calculer" id="calcul">
         </form>
+        <div id="result"></div>
     </div>
     <script src="index.js"></script>
 </body>
